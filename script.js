@@ -37,7 +37,7 @@ document.querySelector('.check').addEventListener('click', function () {
         document.querySelector('.score').textContent = 0;
       }
     } else {
-      displayMessage('Please input number between 1 t0 20!');
+      displayMessage('Please input number between 1 to 20!');
     }
   } else if (guess === secretNum) {
     if (score > 1) {
